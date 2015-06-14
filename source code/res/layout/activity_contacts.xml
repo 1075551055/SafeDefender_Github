@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactsActivity" >
+
+   <TextView
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:background="#8866ff66"
+        android:text="联系人列表" />
+   
+   <ListView 
+       android:id="@+id/lv_contacts"
+       android:layout_marginLeft="10dip"
+       android:layout_marginTop="10dip"
+       android:layout_height="fill_parent"
+       android:layout_width="fill_parent"
+       ></ListView>
+
+</LinearLayout>

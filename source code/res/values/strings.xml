@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安全卫士</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_phone_safe">PhoneSafeActivity</string>
+    <string name="title_activity_phone_safe_setup_one">PhoneSafeSetupOneActivity</string>
+    <string name="title_activity_phone_safe_setup_second">PhoneSafeSetupSecondActivity</string>
+    <string name="title_activity_phone_safe_setup_third">PhoneSafeSetupThirdActivity</string>
+    <string name="title_activity_phone_safe_setup_four">PhoneSafeSetupFourActivity</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="title_activity_advanced_tool">AdvancedToolActivity</string>
+    <string name="title_activity_phone_address_query">PhoneAddressQueryActivity</string>
+    <string name="title_activity_communication_guard">CommunicationGuardActivity</string>
+    <string name="title_activity_software_manager">SoftwareManagerActivity</string>
+    <string name="title_activity_task_manager">TaskManagerActivity</string>
+    <string name="title_activity_lock_enter_pwd">LockEnterPwdActivity</string>
+    <string name="title_activity_traffic_anlaysis">TrafficAnlaysisActivity</string>
+    <string name="title_activity_antivirus">AntivirusActivity</string>
+    <string name="title_activity_clean_cache">CleanCacheActivity</string>
+
+</resources>

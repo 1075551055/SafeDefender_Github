@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+         android:id="@+id/ll_uninstall"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:orientation="vertical"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:text="卸载"
+    	 android:textColor="@android:color/black"
+    	 android:textSize="22sp"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+         android:id="@+id/ll_start"
+         android:layout_marginLeft="6dp"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:orientation="vertical"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:text="启动"
+    	 android:textColor="@android:color/black"
+    	 android:textSize="22sp"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+         android:id="@+id/ll_share"
+         android:layout_marginLeft="6dp"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:orientation="vertical"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:text="分享"
+    	 android:textColor="@android:color/black"
+    	 android:textSize="22sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

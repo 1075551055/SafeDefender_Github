@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="TextView">
+        <attr name="text" format="string" localization="suggested" />
+        <attr name="textIsPromptUpdate" format="string"></attr>
+		<attr name="textOpen" format="string"></attr>
+		<attr name="textOff" format="string"></attr>
+        </declare-styleable>
+</resources>

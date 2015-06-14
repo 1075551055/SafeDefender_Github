@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     xmlns:water="http://schemas.android.com/com.water.safedefender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity" >
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:background="#8866ff66"
+        android:text="设置中心" />
+    
+    <com.water.safedefender.ui.SettingItemRelativeLayout 
+        water:textIsPromptUpdate="提示升级设置中心"
+        water:textOpen="提示升级已经开启"
+        water:textOff="提示升级已经关闭"
+        android:id="@+id/sirl"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        />
+    
+    <com.water.safedefender.ui.SettingItemRelativeLayout 
+        water:textIsPromptUpdate="设置显示号码归属地"
+        water:textOpen="设置显示号码归属地已经开启"
+        water:textOff="设置显示号码归属地已经关闭"
+        android:id="@+id/sirl_show_phoneAddress"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        />
+
+    <com.water.safedefender.ui.ShowAddressBgItemRelativeLayout
+        android:id="@+id/sbir"
+        water:textIsPromptUpdate="归属地提示框风格"
+        water:textOpen="归属地显示风格"
+        water:textOff="半透明"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    
+     <com.water.safedefender.ui.SettingItemRelativeLayout 
+        water:textIsPromptUpdate="黑名单设置中心"
+        water:textOpen="黑名单已经开启"
+        water:textOff="黑名单已经关闭"
+        android:id="@+id/siv_callsms_safe"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        />
+     
+     <com.water.safedefender.ui.SettingItemRelativeLayout 
+        water:textIsPromptUpdate="程序锁设置"
+        water:textOpen="watch dog已经开启"
+        water:textOff="watch dog已经关闭"
+        android:id="@+id/sirl_watchdog"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        />
+    
+</LinearLayout>
